@@ -3,7 +3,7 @@ name = "hexlet-code"
 version = "0.1.0"
 description = ""
 authors = ["samarin"]
-packages = [{ include = "brain_games" },]
+packages = [{ include = "brain_game" },]
 
 
 [tool.poetry.dependencies]

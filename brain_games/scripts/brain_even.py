@@ -4,9 +4,9 @@
 from brain_games.logic_even import logic
 
 
-def even():
+def main():
     print('Welcome to the Brain Games!')
     logic()
 
-if __name__ == '__even__':
-    even()
+if __name__ == '__main__':
+    main()

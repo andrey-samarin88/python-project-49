@@ -1,4 +1,3 @@
-# import random
 import prompt
 
 
@@ -9,7 +8,7 @@ def logic(question, task, correct_answer):
     print(question)
     i = 0
     while i < 3:
-        print(logic()task)
+        print(task)
         answer = prompt.integer('Your answer: ')
         if answer == correct_answer:
             print('Correct!')
@@ -19,5 +18,5 @@ def logic(question, task, correct_answer):
             break
         i += 1
     if i == 3:
-        print(f"'Congratulations, {name}!'")
+        print(f'Congratulations, {name}!')
     return

@@ -1,20 +1,25 @@
-# import random
-#
-# def even():
-#     question = 'Answer "yes" if the number is even, otherwise answer "no".'
-#     number1 = random.randint(1, 100)
-#     number2 = random.randint(1, 100)
-#     action = random.sample(['+', '-', '*'], 1)
-#     correct_answer = eval(number1 + action + number2)
-#
-#
-#         if answer == correct_answer:
-#             print('Correct!')
-#         else:
-#             print(f'"{answer}" is wrong answer ;(. Correct answer was "{correct_answer}"')
-#             print(f"Let's try again, {name}!")
-#             break
-#         i += 1
-#     if i == 3:
-#         print(f"'Congratulations, {name}!'")
-#     return
+import random
+
+
+number = 0
+
+
+def f_question():
+    print(f'Answer "yes" if the number is even, otherwise answer "no"')
+
+
+def f_game():
+    global number
+    number = random.randint(1, 100)
+    print(f'Question: {number}')
+
+
+def f_cor_ans():
+    global number
+    if number % 2 == 0:
+        correct_answer = 'yes'
+    else:
+        correct_answer = 'no'
+    return correct_answer
+
+

@@ -2,11 +2,11 @@
 
 
 from brain_games.engine import logic
-from brain_games.games.calc import calc_game
+from brain_games.games import calc
 
 
 def main():
-    logic(*calc_game())
+    logic(calc)
 
 
 if __name__ == '__main__':

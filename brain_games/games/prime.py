@@ -10,7 +10,7 @@ def f_question():
 
 def f_game():
     global number
-    number = random.randint(1, 10)
+    number = random.randint(2, 20)
     print(f'Question: {number}')
 
 

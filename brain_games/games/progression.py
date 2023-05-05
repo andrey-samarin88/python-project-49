@@ -21,7 +21,7 @@ def f_game():
         i += 1
     correct_answer = str(prog[u])
     prog[u] = '..'
-    task = f'{prog}'
+    task = ' '.join(map(str, prog))
     print(f'Question: {task}')
 
 

@@ -5,7 +5,7 @@ number = 0
 
 
 def f_question():
-    print(f'Answer "yes" if the number is even, otherwise answer "no".')
+    print('Answer "yes" if the number is even, otherwise answer "no".')
 
 
 def f_game():
